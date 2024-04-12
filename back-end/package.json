@@ -1,0 +1,24 @@
+{
+  "name": "sistemas_distribuidos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev:calculate": "ts-node-dev --respawn --transpile-only --exit-child --watch src calculate/calculate.ts",
+    "dev:change-file": "ts-node-dev --respawn --transpile-only --exit-child --watch src change-file/change-file.ts",
+    "dev:message": "ts-node-dev --respawn --transpile-only --exit-child --watch src message/message.ts"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/kafkajs": "^1.9.0",
+    "@types/node": "^20.12.6",
+    "nodemon": "^3.1.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.4"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "kafkajs": "^2.2.4"
+  }
+}

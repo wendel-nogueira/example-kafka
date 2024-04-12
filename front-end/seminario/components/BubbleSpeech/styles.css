@@ -1,0 +1,11 @@
+.request {
+  background: #087ff5;
+  margin-left: auto;
+  border-top-right-radius: 0;
+}
+.response {
+  background: #292929;
+  margin-right: auto;
+  border-top-left-radius: 0;
+  align-items: flex-start;
+}
